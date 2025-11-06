@@ -1,0 +1,24 @@
+[submodule "BuildTemplate"]
+	path = BuildTemplate
+	url = git@github.com:TreeNeeBee/BuildTemplate.git
+	branch = master
+[submodule "modules/Core"]
+	path = modules/Core
+	url = git@github.com:TreeNeeBee/Core.git
+	branch = master
+[submodule "modules/Com"]
+	path = modules/Com
+	url = git@github.com:TreeNeeBee/Com.git
+	branch = master
+[submodule "modules/LogAndTrace"]
+	path = modules/LogAndTrace
+	url = git@github.com:TreeNeeBee/LogAndTrace.git
+	branch = master
+[submodule "modules/Persistency"]
+	path = modules/Persistency
+	url = git@github.com:TreeNeeBee/Persistency.git
+	branch = master
+[submodule "modules/PlatformHealthManagement"]
+	path = modules/PlatformHealthManagement
+	url = git@github.com:TreeNeeBee/PlatformHealthManagement.git
+	branch = master
