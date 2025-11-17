@@ -24,7 +24,7 @@ LightAP/
 
 ```bash
 # Clone repository with all submodules
-git clone --recursive git@10.80.105.120:ddk/LightAP.git
+git clone --recursive git@github.com:TreeNeeBee/LightAP.git
 cd LightAP
 
 # Or if already cloned without submodules:
@@ -51,12 +51,12 @@ ctest --output-on-failure
 
 | Module | Path | Repository | Description |
 |--------|------|------------|-------------|
-| **BuildTemplate** | `BuildTemplate/` | `git@10.80.105.120:ddk/BuildTemplate.git` | CMake build system templates |
-| **Core** | `modules/Core/` | `git@10.80.105.120:ddk/Core.git` | Core services (memory, config, AUTOSAR types) |
-| **Com** | `modules/Com/` | `git@10.80.105.120:ddk/Com.git` | Communication services (IPC, Service-Oriented Communication) |
-| **LogAndTrace** | `modules/LogAndTrace/` | `git@10.80.105.120:ddk/LogAndTrace.git` | Logging and diagnostic services |
-| **Persistency** | `modules/Persistency/` | `git@10.80.105.120:ddk/Persistency.git` | Key-value storage and data persistence |
-| **PlatformHealthManagement** | `modules/PlatformHealthManagement/` | `git@10.80.105.120:ddk/PlatformHealthManagement.git` | Platform health monitoring and supervision |
+| **BuildTemplate** | `BuildTemplate/` | `git@github.com:TreeNeeBee/BuildTemplate.git` | CMake build system templates |
+| **Core** | `modules/Core/` | `git@github.com:TreeNeeBee/Core.git` | Core services (memory, config, AUTOSAR types) |
+| **Com** | `modules/Com/` | `git@github.com:TreeNeeBee/Com.git` | Communication services (IPC, Service-Oriented Communication) |
+| **LogAndTrace** | `modules/LogAndTrace/` | `git@github.com:TreeNeeBee/LogAndTrace.git` | Logging and diagnostic services |
+| **Persistency** | `modules/Persistency/` | `git@github.com:TreeNeeBee/Persistency.git` | Key-value storage and data persistence |
+| **PlatformHealthManagement** | `modules/PlatformHealthManagement/` | `git@github.com:TreeNeeBee/PlatformHealthManagement.git` | Platform health monitoring and supervision |
 
 ### Working with Submodules
 
